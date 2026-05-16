@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Multiple Inputs Form</h2>
+
+<form method="post" action="">
+    
+    Name: <input type="text" name="name"><br><br>
+    
+    Email: <input type="email" name="email"><br><br>
+    
+    <input type="submit" value="Submit">
+
+</form>
+
+<?php
+if(isset($_POST['name']) && isset($_POST['email'])) {
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+
+
+</body>
+</html>
